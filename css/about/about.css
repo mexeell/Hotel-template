@@ -1,0 +1,56 @@
+#about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-right img {
+    display: block;
+    width: 70%;
+    margin: auto;
+    border-radius: 50%;
+}
+
+#about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+    text-align: justify;
+}
+
+#testimonials {
+    height: 100%;
+    width: 100%;
+    background: url('../../img/test-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center/cover;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+#testimonials .testimonials {
+    padding: 20px;
+    margin-bottom: 40px; 
+    border-radius: 8px;
+    opacity: 0.85;
+
+}
+
+#testimonials .testimonials {
+    padding: 20px;
+    margin-bottom: 40px;
+    
+}
+
+#testimonials .testimonials img {
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+#testimonials h2 {
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+}

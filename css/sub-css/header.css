@@ -1,0 +1,112 @@
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    padding-bottom: 20px;
+    
+}
+
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.text-primary {
+    color: #f7c08a;
+}
+
+.lead {
+    font-size: 1.2em;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    background: #333;
+    padding: 30px 20px;
+    border: none;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #444;
+    color: #f7c08a;
+}
+
+p {
+    margin: 10px 0;
+}
+
+#navbar {
+    background-color: #333;
+    color: white;
+    overflow: auto;
+
+    
+}
+
+#navbar a {
+    color: white;
+}
+
+
+
+#navbar h1 {
+    float: left;
+    padding: 20px;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+    background-color: #444;
+    color: #f7c08a;
+} 
+
+#showcase {
+    background-image: url('../../img/showcase.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    height: 500px;
+}
+
+
+#showcase .showcase-content {
+    color: #fff;
+    text-align: center;
+    padding: 110px;
+   
+}
+
+#showcase .showcase-content h1{
+    font-size: 60px;
+    line-height: 1.2em;
+
+}
+
+#showcase .showcase-content p {
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
